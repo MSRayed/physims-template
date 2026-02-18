@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,10 +9,23 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basecoat-css@0.3.11/dist/basecoat.cdn.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/basecoat-css@0.3.11/dist/js/all.min.js"
+      defer
+    ></script>
   </head>
 
   <body>
-    <main></main>
+    <div class="flex">
+      <main></main>
+      <div>
+        <h1 class="text-xl font-bold">Controls</h1>
+      </div>
+    </div>
     <script src="sketch.js"></script>
   </body>
 </html>
